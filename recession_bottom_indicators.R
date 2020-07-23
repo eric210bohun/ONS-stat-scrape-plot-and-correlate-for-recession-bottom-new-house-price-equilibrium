@@ -92,7 +92,7 @@ email_eric <- email_eric %>% attachment("~/projects/bottom/House_prices.png")
 smtp <- server(host = "smtp.gmail.com",
                port = 465,
                username = "oedipusatcolonussheffield@gmail.com",
-               password = "FD5neta6bhSGVhZ")
+               password = "XXXXXXXXXX")
 smtp(email_eric, verbose = TRUE)
 
 # save newly acquired data in the data object
